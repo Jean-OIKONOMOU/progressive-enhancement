@@ -1,3 +1,30 @@
+html {
+  background: linear-gradient(90deg, rgb(22, 135, 237), rgb(20, 55, 90));
+}
+body {
+  max-width: 90%;
+  width:960px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url(Z.jpg);
+  background-position: bottom right;
+  background-size: cover;
+}
+
+img {
+  width:100%;
+  max-width:100%;
+}
+
+blockquote {
+  margin: 80px auto 80px auto;
+  width: 50%;
+  border-left: 3px solid FireBrick;
+  padding: 10px 10px 10px 30px;
+  font-size: 1.6em;
+  background-color: #c7b7c9;
+}
+
 .bien {
   color: rgb(53, 22, 245);
   font-size: 1.2em;
@@ -5,7 +32,7 @@
 }
 
 a:link {
-    color: #e91cb6;
+    color: #B26322;
     background-color: transparent;
     text-decoration: underline;
 }
@@ -16,28 +43,21 @@ a:visited {
     text-decoration: none;
 }
 a:hover {
-    color: #FF1313;
+    color: #1B8E1B;
     background-color: transparent;
     text-decoration: underline overline;
 }
 a:active {
-    color: #e91cb6;
+    color: #B26322;
     background-color: transparent;
     text-decoration: underline;
 }
-/*
-- stylise les paragraphes : utilise une police à empatement,
-augmente un peu l'interlignage, utilise une taille de base bien lisible.
-Donne au texte de couleur foncée, mais pas noire.
-- stylise les liens de manière à les rendre bien lisibles.
-- stylise l'état "survolé" et l'état "visité" des liens.*/
 
 p {
   text-align: justify;
   font-family: "Palatino Linotype";
   margin: 0 0 8px 0;
-  margin-left: 10%;
-  margin-right: 10%;
+
 }
 
 table {
@@ -55,11 +75,6 @@ td:hover {
     background-color: #f36f48;
     }
 
-h1, h2 {
-  margin-left: 10%;
-  margin-right: 10%;
-}
-
 .mal {
   color: rgb(245, 22, 55);
   font-size: 1.2em;
@@ -70,8 +85,7 @@ h1, h2 {
   list-style-type: none;
   margin: 0 0 15px 0;
   font-style: italic;
-  margin-left: 10%;
-  margin-right: 10%;
+
 }
 
 .figure p {
