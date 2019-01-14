@@ -1,0 +1,32 @@
+.bien {
+  color: rgb(53, 22, 245);
+  font-size: 1.2em;
+  font-weight:bold;
+}
+
+p {
+  text-align: justify;
+}
+.mal {
+  color: rgb(245, 22, 55);
+  font-size: 1.2em;
+  font-weight:bold;
+}
+
+.histoire li {
+  list-style-type: none;
+  margin: 0 0 15px 0;
+  font-style: italic;
+}
+
+.figure p {
+  margin: 0;
+  text-align: left;
+  font-size: 1.3em;
+  font-style: italic;
+}
+
+blockquote {
+  font-size: 1.1em;
+  font-style: italic;
+}
