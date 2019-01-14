@@ -1,5 +1,5 @@
 html {
-  background: linear-gradient(90deg, rgb(22, 135, 237), rgb(20, 55, 90));
+background: linear-gradient(90deg, rgb(56, 35, 122), rgb(178, 153, 34));
 }
 body {
   max-width: 90%;
@@ -9,6 +9,7 @@ body {
   background-image: url(Z.jpg);
   background-position: bottom right;
   background-size: cover;
+  padding: 20px;
 }
 
 img {
