@@ -1,6 +1,8 @@
 html {
-background: linear-gradient(90deg, rgb(56, 35, 122), rgb(178, 153, 34));
+background: -webkit-radial-gradient(rgb(0, 134, 255), rgb(255, 40, 0));
+background: radial-gradient(rgb(0, 134, 255), rgb(255, 40, 0));
 }
+
 body {
   max-width: 90%;
   width:960px;
@@ -24,6 +26,7 @@ blockquote {
   padding: 10px 10px 10px 30px;
   font-size: 1.6em;
   background-color: #c7b7c9;
+  font-style: italic;
 }
 
 .bien {
