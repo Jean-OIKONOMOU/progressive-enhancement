@@ -4,11 +4,62 @@
   font-weight:bold;
 }
 
+a:link {
+    color: #e91cb6;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #6a6fed;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: #FF1313;
+    background-color: transparent;
+    text-decoration: underline overline;
+}
+a:active {
+    color: #e91cb6;
+    background-color: transparent;
+    text-decoration: underline;
+}
+/*
+- stylise les paragraphes : utilise une police à empatement,
+augmente un peu l'interlignage, utilise une taille de base bien lisible.
+Donne au texte de couleur foncée, mais pas noire.
+- stylise les liens de manière à les rendre bien lisibles.
+- stylise l'état "survolé" et l'état "visité" des liens.*/
+
 p {
   text-align: justify;
+  font-family: "Palatino Linotype";
+  margin: 0 0 8px 0;
   margin-left: 10%;
   margin-right: 10%;
 }
+
+table {
+    width: 100%;
+}
+
+table, th, td {
+    border: 2px solid #cecece;
+    border-collapse: collapse;
+    text-align: center;
+    table-layout: auto;
+}
+
+td:hover {
+    background-color: #f36f48;
+    }
+
+h1, h2 {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
 .mal {
   color: rgb(245, 22, 55);
   font-size: 1.2em;
@@ -19,6 +70,8 @@ p {
   list-style-type: none;
   margin: 0 0 15px 0;
   font-style: italic;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 .figure p {
