@@ -7,7 +7,7 @@ body {
   background-image: url(Z.jpg), -ms-radial-gradient(rgb(0, 134, 255), rgb(255, 40, 0));
   background-image: url(Z.jpg), -moz-radial-gradient(rgb(0, 134, 255), rgb(255, 40, 0));
   background-image: url(Z.jpg), -o-radial-gradient(rgb(0, 134, 255), rgb(255, 40, 0));
-  background-image: url(Z.jpg), -webkit-gradient(rgb(0, 134, 255), rgb(255, 40, 0));;
+  background-image: url(Z.jpg), -webkit-gradient(rgb(0, 134, 255), rgb(255, 40, 0));
   background-position: bottom right;
   background-size: cover;
   background-repeat:no-repeat;
@@ -22,14 +22,16 @@ body {
     border-width: 30px;
     border-style: solid;
     border-width: 15px 16px 15px 15px;
-
     border-image: url(chat.png) 1 1 1 1 round round fill stretch;
 } */
 
 img {
   width:100%;
   max-width:100%;
+}
 
+.float {
+  float:left;
 }
 
 blockquote {
