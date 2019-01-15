@@ -1,21 +1,18 @@
-html {
-background: -webkit-radial-gradient(rgb(0, 134, 255), rgb(255, 40, 0));
-background: radial-gradient(rgb(0, 134, 255), rgb(255, 40, 0));
-background: -ms-radial-gradient(rgb(0, 134, 255), rgb(255, 40, 0));
-background: -moz-radial-gradient(rgb(0, 134, 255), rgb(255, 40, 0));
-background: -o-radial-gradient(rgb(0, 134, 255), rgb(255, 40, 0));
-background: -webkit-gradient(rgb(0, 134, 255), rgb(255, 40, 0));
-}
-
 body {
   max-width: 90%;
-  width:960px;
   margin-left: auto;
   margin-right: auto;
-  background-image: url(Z.jpg);
+  background-image: url(Z.jpg), -webkit-radial-gradient(rgb(0, 134, 255), rgb(255, 40, 0));
+  background-image: url(Z.jpg), radial-gradient(rgb(0, 134, 255), rgb(255, 40, 0));
+  background-image: url(Z.jpg), -ms-radial-gradient(rgb(0, 134, 255), rgb(255, 40, 0));
+  background-image: url(Z.jpg), -moz-radial-gradient(rgb(0, 134, 255), rgb(255, 40, 0));
+  background-image: url(Z.jpg), -o-radial-gradient(rgb(0, 134, 255), rgb(255, 40, 0));
+  background-image: url(Z.jpg), -webkit-gradient(rgb(0, 134, 255), rgb(255, 40, 0));;
   background-position: bottom right;
   background-size: cover;
+  background-repeat:no-repeat;
   padding: 20px;
+
 }
 
 /* .meow {
@@ -46,10 +43,17 @@ blockquote {
 }
 
 .bien {
-  color: rgb(53, 22, 245);
+  color: #1B8E1B;
   font-size: 1.2em;
   font-weight:bold;
+  text-transform: uppercase;
+}
 
+.mal {
+  color: rgb(245, 22, 55);
+  font-size: 1.2em;
+  font-weight:bold;
+  text-transform: uppercase;
 }
 
 a:link {
@@ -92,15 +96,12 @@ table, th, td {
     table-layout: auto;
 }
 
+tr:nth-child(even) {background-color: #ffffff;}
+tr:nth-child(odd) {background-color: #b1afaf;}
+
 td:hover {
     background-color: #f36f48;
     }
-
-.mal {
-  color: rgb(245, 22, 55);
-  font-size: 1.2em;
-  font-weight:bold;
-}
 
 .histoire li {
   list-style-type: none;
@@ -116,6 +117,19 @@ td:hover {
   border-left: 5px groove rgb(245, 22, 55);
 }
 
+.date {
+background-color: yellow;
+}
+
+.indent {
+  text-indent: 3em;
+}
+
+.indentBold {
+  text-indent: 3em;
+  font-weight: bold;
+}
+
 .figure p {
   margin: 0;
   text-align: left;
@@ -127,4 +141,44 @@ td:hover {
 blockquote {
   font-size: 1.1em;
   font-style: italic;
+}
+
+.cool {
+    background:#F2EEBB url(bien.png) no-repeat 99.5% center;
+    background-size: contain;
+    border:solid 1px red;
+    margin:5px;
+    color:#000000;
+    font-weight:bold;
+    padding: 3px 18px 3px 3px;
+}
+
+.pasCool {
+  background:#F2EEBB url(mal.png) no-repeat 99.5% center;
+  background-size: contain;
+  border:solid 1px red;
+  margin:5px;
+  color:#000000;
+  font-weight:bold;
+  padding: 3px 18px 3px 3px;
+}
+
+.chat {
+  background:#F2EEBB url(chat.png) no-repeat 99.5% center;
+  background-size: contain;
+  border:solid 1px red;
+  margin:5px;
+  color:#000000;
+  font-weight:bold;
+  padding: 3px 18px 3px 3px;
+}
+
+.smorc {
+  background:#F2EEBB url(smorc.png) no-repeat 99.5% center;
+  background-size: contain;
+  border:solid 1px red;
+  margin:5px;
+  color:#000000;
+  font-weight:bold;
+  padding: 3px 18px 3px 3px;
 }
