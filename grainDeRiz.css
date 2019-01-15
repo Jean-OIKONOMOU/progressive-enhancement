@@ -8,20 +8,28 @@
 }
 
 @font-face {
-  font-family: 'el';
-  src: url('motel/TarponMotel-webfont.woff') format('woff'); /* Modern Browsers */
+  font-family: 'T-town';
+  src: url('t-town/Trump_Town_Pro-webfont.eot'); /* IE9 Compat Modes */
+  src: url('webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('t-town/Trump_Town_Pro-webfont.woff') format('woff'), /* Modern Browsers */
+       url('t-town/Trump_Town_Pro-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('t-town/Trump_Town_Pro-webfont.svg') format('svg'); /* Legacy iOS */
+}
+
+html {
+  background: -webkit-radial-gradient(rgb(0, 134, 255), rgb(255, 40, 0));
+  background: radial-gradient(rgb(0, 134, 255), rgb(255, 40, 0));
+  background: -ms-radial-gradient(rgb(0, 134, 255), rgb(255, 40, 0));
+  background: -moz-radial-gradient(rgb(0, 134, 255), rgb(255, 40, 0));
+  background: -o-radial-gradient(rgb(0, 134, 255), rgb(255, 40, 0));
+  background: -webkit-gradient(rgb(0, 134, 255), rgb(255, 40, 0));
 }
 
 body {
-  max-width: 90%;
+  max-width: 80%;
   margin-left: auto;
   margin-right: auto;
-  background-image: url(Z.jpg), -webkit-radial-gradient(rgb(0, 134, 255), rgb(255, 40, 0));
-  background-image: url(Z.jpg), radial-gradient(rgb(0, 134, 255), rgb(255, 40, 0));
-  background-image: url(Z.jpg), -ms-radial-gradient(rgb(0, 134, 255), rgb(255, 40, 0));
-  background-image: url(Z.jpg), -moz-radial-gradient(rgb(0, 134, 255), rgb(255, 40, 0));
-  background-image: url(Z.jpg), -o-radial-gradient(rgb(0, 134, 255), rgb(255, 40, 0));
-  background-image: url(Z.jpg), -webkit-gradient(rgb(0, 134, 255), rgb(255, 40, 0));
+  background-image: url(Z.jpg);
   background-position: bottom right;
   background-size: cover;
   background-repeat:no-repeat;
@@ -68,6 +76,9 @@ blockquote {
   font-style: italic;
 }
 
+div.width {
+  max-width: 50%;
+}
 .bien {
   color: #1B8E1B;
   font-size: 1.2em;
@@ -109,11 +120,11 @@ a:active {
 p {
   text-align: justify;
   font-family: "Open-Sans";
-  margin: 0 0 8px 0;
+   margin: 0 0 8px 0;
 }
 
-h2 {
-  font-family: el; /* BROKEN */
+h2, h1 {
+  font-family: "T-town";
 }
 
 table {
@@ -138,6 +149,7 @@ td:hover {
   list-style-type: none;
   margin: 0 0 15px 0;
   font-style: italic;
+  max-width: 45%;
 }
 
 .villageois {
@@ -162,6 +174,13 @@ display: inline;
   font-weight: bold;
 }
 
+#BlueBorder {
+  border-radius: 15px 50px 30px;
+  background: #4ddebb;
+  padding: 18px;
+  border-width: 49%;
+}
+
 blockquote {
   font-size: 1.1em;
   font-style: italic;
@@ -169,7 +188,7 @@ blockquote {
 
 .cool {
   box-sizing: content-box;
-  width: 30%;
+  width: 40%;
   background:#F2EEBB url(bien.png) no-repeat 100% center;
   background-size: contain;
   border:solid 1px red;
@@ -181,7 +200,7 @@ blockquote {
 
 .pasCool {
   box-sizing: content-box;
-  width: 30%;
+  width: 40%;
   background:#F2EEBB url(mal.png) no-repeat 100% center;
   background-size: contain;
   border:solid 1px red;
@@ -193,7 +212,7 @@ blockquote {
 
 .chat {
   box-sizing: content-box;
-  width: 30%;
+  width: 40%;
   background:#F2EEBB url(chat.png) no-repeat 100% center;
   background-size: contain;
   border:solid 1px red;
@@ -205,7 +224,7 @@ blockquote {
 
 .smorc {
   box-sizing: content-box;
-  width: 30%;
+  width: 40%;
   background:#F2EEBB url(smorc.png) no-repeat 100% center;
   background-size: contain;
   border:solid 1px red;
