@@ -191,7 +191,7 @@ td:hover {
   font-weight: bold;
 }
 
-#BlueBorder {
+.BlueBorder {
   border-radius: 15px 50px 30px;
   background: #4ddebb;
   padding: 18px;
