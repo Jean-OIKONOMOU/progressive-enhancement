@@ -67,7 +67,6 @@ body {
   border-width: 15px 16px 15px 15px;
   border-image: url(chat.png) 1 1 1 1 round round fill stretch;
 } */
-
 img, figcaption {
   width: 100%;
   max-width: 49%;
@@ -77,7 +76,9 @@ img, figcaption {
   text-align: center;
 }
 
-body figure:nth-child(9) {margin-bottom: 4rem;}
+body figure:nth-child(9) {
+  margin-bottom: 4rem;
+}
 
 blockquote {
   margin: 80px auto 80px auto;
@@ -146,7 +147,7 @@ table, th, td {
   border-collapse: collapse;
   text-align: center;
   table-layout: auto;
-  border:1px solid black;
+  border: 1px solid black;
 }
 
 tr:nth-child(even) {
